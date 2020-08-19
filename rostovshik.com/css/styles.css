@@ -8359,6 +8359,7 @@ label .checked:after {
     margin-bottom: 1rem;
     color: #666666;
     font-weight: 500;
+    font-size: 1rem;
 }
 
 .partnership__addtext,
@@ -8905,6 +8906,10 @@ iframe#yt-video-frame {
 }
 
 .elevator-section {
+    overflow-x: hidden;
+}
+
+.become-partner-section {
     overflow-x: hidden;
     background-image: url("../img/elevator.png");
     background-repeat: no-repeat;
@@ -11765,6 +11770,10 @@ iframe#yt-video-frame {
         margin-bottom: 40px;
     }
 
+    .become-partner-section header {
+        margin-bottom: 40px;
+    }
+
     .become-partner-section .section__content {
         text-align: right;
     }
@@ -12823,10 +12832,6 @@ iframe#yt-video-frame {
 
     .money-origin__item {
         margin-bottom: 64px;
-    }
-
-    #reviews {
-        margin-bottom: 82px;
     }
 
     .rates-calc-form .form-result > div {
@@ -13941,6 +13946,11 @@ iframe#yt-video-frame {
         padding: 68px 0;
         background-position: calc(100% + 122px) bottom;
     }
+
+    .become-partner-section {
+        padding: 68px 0;
+        background-position: calc(100% + 122px) bottom;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -14381,6 +14391,11 @@ iframe#yt-video-frame {
         padding: 30px 0 360px;
     }
 
+    .become-partner-section {
+        background-position: calc(100% + 205px) bottom;
+        padding: 30px 0 360px;
+    }
+
     .become-partner-section .section__content {
         text-align: center;
     }
@@ -14712,6 +14727,11 @@ iframe#yt-video-frame {
         padding: 32px 0;
         background-position: calc(100% + 122px) bottom;
     }
+
+    .become-partner-section {
+        padding: 32px 0;
+        background-position: calc(100% + 122px) bottom;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -14730,10 +14750,6 @@ iframe#yt-video-frame {
         height: calc(269px + 64px);
     }
 
-    #reviews {
-        margin-bottom: 36px;
-    }
-
     .uk-map .map {
         max-width: 738px;
     }
@@ -14747,6 +14763,11 @@ iframe#yt-video-frame {
     }
 
     .elevator-section {
+        background-position: calc(100% + 205px) bottom;
+        padding: 30px 0 360px;
+    }
+
+    .become-partner-section {
         background-position: calc(100% + 205px) bottom;
         padding: 30px 0 360px;
     }
@@ -14877,7 +14898,7 @@ iframe#yt-video-frame {
     }
 }
 
-.webp .elevator-section {
+.webp .become-partner-section {
     background-image: url(../img/elevator.webp);
 }
 
