@@ -8888,9 +8888,7 @@ iframe#yt-video-frame {
 }
 
 .deposit-calc-section .lukyanov-photo {
-    position: absolute;
     display: block;
-    width: calc(100% + (100vw - 1140px) / 2);
     margin-top: 0px;
     right: 0;
     bottom: 0;
@@ -14644,6 +14642,11 @@ iframe#yt-video-frame {
         transform: translateX(175%);
     }
 
+    .deposit-calc-section .lukyanov-photo {
+        margin-top: 0px;
+        bottom: -200px;
+    }
+
     .video-fullpage .row .col-wrapper > div.content svg {
         position: absolute;
         top: 50%;
@@ -14762,6 +14765,11 @@ iframe#yt-video-frame {
         padding: 85px 32px 32px;
     }
 
+    .deposit-calc-section .lukyanov-photo {
+        margin-top: -250px;
+        bottom: -250px;
+    }
+
     .elevator-section {
         background-position: calc(100% + 205px) bottom;
         padding: 30px 0 360px;
@@ -14783,6 +14791,11 @@ iframe#yt-video-frame {
 @media (min-width: 576px) and (max-width: 767.98px) {
     .uk-map .map {
         max-width: 546px;
+    }
+
+    .deposit-calc-section .lukyanov-photo {
+        margin-top: -150px;
+        bottom: -150px;
     }
 }
 
